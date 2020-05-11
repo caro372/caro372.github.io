@@ -1,0 +1,127 @@
+body {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	padding: 0;
+	background: #f2f2f2;
+}
+
+header, footer {
+	background: #3A4010;
+	color: #f2d8c2;
+	padding: 10px;
+}
+
+header a:link, header a:visited, footer a:link, footer a:visited { 
+	color: #f2d8c2; 
+	text-decoration: none;
+}
+
+header a:hover, footer a:hover {
+	color: #f2f2f2;
+	text-decoration: none;
+}
+
+header a:active, footer a:active {
+	color: #d9d9d9;
+	text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+	display: inline;
+	margin: 40px;
+	font-size: 1.5em;
+}
+
+footer li {
+	font-size: 1.5em;
+}
+
+#logo {
+	font-size: 2em;
+	font-weight: bold;
+}
+
+img {
+	width: 380px;
+}
+
+#highlight {
+	padding: 150px;
+	background: url("../images/pastel-wall.jpg");
+	background-size: cover;
+	color: #0d0d0d;
+}
+
+#highlight a, #featured-callout a {
+  background-color: #3A4010;
+  color: #f2f2f2;
+  padding: 1em 1.5em;
+  text-decoration: none;
+}
+
+#highlight a:hover {
+  background-color: #49590e;
+}
+
+#highlight a:active {
+  background-color: #3A4010;
+}
+
+#highlight a:visited {
+  background-color: #3A4010;
+}
+
+#slogan {
+	margin: none;
+	padding: none;
+	font-size: 1.75em;
+	font-style: italic;
+}
+
+#highlight p {
+	font-style: italic;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+.product-name {
+	text-decoration: none;
+}
+
+.product-name a:link, a:visited {
+	color: black;
+}
+
+.product-name a:hover {
+	color: #050505;
+}
+
+.product-name a:active {
+	color: #010101;
+}
+
+#featured-callout {
+	background: #f2d8c2;
+	color: black;
+	padding: 30px;
+}
+
+#highlight a:hover {
+  background-color: #49590e;
+}
+
+#highlight a:active {
+  background-color: #3A4010;
+}
+
+#highlight a:visited {
+  background-color: #3A4010;
+}
