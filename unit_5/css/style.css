@@ -26,22 +26,22 @@ a {
 	text-decoration: none;
 }
 
-header a {
+nav a {
 	display: inline;
 	margin: 0 2em;
 	font-size: 1.5em;
 	letter-spacing: .05em;
 }
 
-header a:link, header a:visited, footer a:link, footer a:visited { 
+nav a:link, nav a:visited, footer a:link, footer a:visited { 
 	color: #f2d8c2; 
 }
 
-header a:hover, footer a:hover {
+nav a:hover, footer a:hover {
 	color: #f2f2f2;
 }
 
-header a:active, footer a:active {
+nav a:active, footer a:active {
 	color: #d9d9d9;
 }
 
@@ -71,10 +71,16 @@ p {
 }
 
 .highlight {
-	padding: 12em;
+	padding: 12em 2em;
 	background: url("../images/pastel-wall.jpg");
 	background-size: cover;
 	color: #0d0d0d;
+}
+
+.highlight div {
+	text-align: left;
+	width: 600px;
+	margin: auto;
 }
 
 .featured-callout {
@@ -90,6 +96,12 @@ p {
 	display: inline-block;
 }
 
+/*Don't technically need this, because it is the same as the original button color.
+It needs to appear above hover, because then you need to have the button inherit the hover color which would need to come later on the list
+.highlight a:visited, .featured-callout a:visited {
+	background-color: #3A4010;
+}*/
+
 .highlight a:hover, .featured-callout a:hover {
 	background-color: #49590e;
 }
@@ -98,13 +110,31 @@ p {
 	background-color: #3A4010;
 }
 
-.highlight a:visited, .featured-callout a:visited {
-	background-color: #3A4010;
-}
-
 #slogan {
 	font-size: 1.75em;
 	font-style: italic;
 }
 
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
 
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section, div {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
