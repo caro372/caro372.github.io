@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
-/*font-family: 'Lora', serif;
+/*@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+font-family: 'Lora', serif;
 font-family: 'Merriweather', serif;
 font-family: 'Open Sans', sans-serif;*/
 
@@ -70,7 +70,8 @@ p {
 	font-weight: semi-bold;
 }
 
-.highlight {
+
+/*.highlight {
 	padding: 12em 2em;
 	background: url("../images/pastel-wall.jpg");
 	background-size: cover;
@@ -96,11 +97,11 @@ p {
 	display: inline-block;
 }
 
-/*Don't technically need this, because it is the same as the original button color.
+Don't technically need this, because it is the same as the original button color.
 It needs to appear above hover, because then you need to have the button inherit the hover color which would need to come later on the list
 .highlight a:visited, .featured-callout a:visited {
 	background-color: #3A4010;
-}*/
+}
 
 .highlight a:hover, .featured-callout a:hover {
 	background-color: #49590e;
@@ -108,7 +109,7 @@ It needs to appear above hover, because then you need to have the button inherit
 
 .highlight a:active, .featured-callout a:active {
 	background-color: #3A4010;
-}
+}*/
 
 #slogan {
 	font-size: 1.75em;
@@ -116,25 +117,25 @@ It needs to appear above hover, because then you need to have the button inherit
 }
 
 header {
-    background-color: #FFED74;
+    background: #FFED74;
     border: 1px black solid;
     padding: 20px;
 }
 
 nav {
-    background-color: #E8C66A;
+    background: #E8C66A;
     border: 1px black solid;
     padding: 20px;
 }
 
 section, div {
-    background-color: #FFE2B8;
+    background: #FFE2B8;
     border: 1px black solid;
     padding: 20px;
 }
 
 footer {
-    background-color: #FF957E;
+    background: #FF957E;
     border: 1px black solid;
     padding: 20px;
 }
