@@ -1,0 +1,275 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+font-family: 'Lora', serif;
+font-family: 'Merriweather', serif;
+font-family: 'Open Sans', sans-serif;*/
+
+* {
+	margin: 0; 
+	padding: 0; 
+	box-sizing: border-box;
+}
+
+body {
+	text-align: center;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	background: #f2f2f2;
+	font-size: 16px;
+}
+
+header, footer {
+	background: #3A4010;
+	color: #f2d8c2;
+	padding: .75em;
+}
+
+a {
+	text-decoration: none;
+}
+
+nav a {
+	display: inline;
+	margin: 0 2em;
+	font-size: 1.5em;
+	letter-spacing: .05em;
+	color: #f2d8c2; 
+}
+
+footer a {
+	color: #f2d8c2; 
+	font-size: 1.25em;
+}
+/*nav a:link, nav a:visited, #logo a:link, #logo a:visited, footer a:link, footer a:visited { 
+	color: #f2d8c2; 
+}*/
+
+#logo {
+	font-size: 2em;
+	font-weight: semi-bold;
+	color: #f2d8c2; 
+}
+
+nav a:hover, #logo:hover, footer a:hover {
+	color: #f2f2f2;
+}
+
+nav a:active, #logo:active, footer a:active {
+	color: #d9d9d9;
+}
+
+ul {
+	list-style-type: none;
+}
+
+h2 {
+	font-size: 1.25em;
+}
+
+img {
+	width: 20em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+
+.highlight {
+	padding: 12em 2em;
+	background: url("../images/pastel-wall.jpg");
+	background-size: cover;
+	color: #0d0d0d;
+}
+
+.highlight div {
+	width: 600px;
+	margin: auto;
+}
+
+.highlight div p {
+	text-align: left;
+}
+
+.highlight p, .callout p {
+	line-height: 1.5em;
+}
+
+.callout {
+	background: #f2d8c2;
+	color: black;
+	padding: 5em;
+	clear: both;
+}
+
+.highlight a, .callout a {
+	background-color: #3A4010;
+	color: #f2f2f2;
+	padding: 1em 1.5em;
+	margin: .8em auto;
+	display: inline-block;
+}
+
+/*Don't technically need this, because it is the same as the original button color.
+It needs to appear above hover, because then you need to have the button inherit the hover color which would need to come later on the list
+.highlight a:visited, .callout a:visited {
+	background-color: #3A4010;
+}*/
+
+.highlight a:hover, .callout a:hover {
+	background-color: #49590e;
+}
+
+.highlight a:active, .callout a:active {
+	background-color: #3A4010;
+}
+
+#slogan {
+	font-size: 1.75em;
+	font-style: italic;
+}
+
+#now-available {
+	width: 300px;
+	margin: 1em auto;
+}
+
+.featured-products {
+	width: 1000px;
+	margin: 1em auto;
+	display: block;
+}
+
+.featured-products a {
+	display: block;
+	width: 250px;
+	float: left;
+	margin: 1em 2.5em;
+	color: #000;
+}
+
+.featured-products a:hover {
+	text-decoration: underline;
+}
+
+.featured-products img {
+	width: 250px;
+}
+
+.featured-products p {
+	width: 200px;
+	margin: 0 auto;
+}
+
+#newsletter {
+	float: left;
+	text-align: left;
+}
+
+/*#newsletter input {
+	background-color: #3A4010;
+	color: #f2f2f2;
+	padding: 1em 1.5em;
+	display: inline-block;
+}
+
+#newsletter input:hover {
+	background-color: #49590e;
+}
+
+#newsletter input:active {
+	background-color: #3A4010;
+}*/
+
+footer ul {
+	float: right;
+	text-align: right;
+	margin: auto;
+}
+
+/*Shop Page Specific*/
+.text-blurb {
+	width: 600px;
+	margin: 4em auto;
+}
+
+.text-blurb p {
+	text-align: left;
+}
+
+#list-products {
+	width: 1000px;
+	margin: 1em auto;
+}
+
+.product-listing {
+	float: left;
+	width: 230px;
+	margin: 2em 10px;
+}
+
+.product-listing img {
+	width: 100%;
+}
+
+.product-listing a {
+	color: #000;
+}
+
+.prod-button {
+	color: #000;
+	font-style: italic;
+}
+
+.prod-button:hover {
+	text-decoration: underline;
+}
+
+
+/*Product Page Specific*/
+#product-image {
+	float: left;
+	width: 500px;
+	margin: 2em 4em;
+}
+
+.product-details {
+	float: right;
+	width: 400px;
+	margin: 6em 50px;
+	line-height: 2em;
+}
+
+
+/*About Page Specific*/
+#headshot {
+	float: left;
+	margin: 1em 2em;
+}
+
+#bio {
+	margin: auto;
+}
+
+
+/*Custom Page Specifics*/
+.other-products {
+	width: 1000px;
+	margin: 4em auto;
+	display: block;
+}
+
+.other-products img {
+	display: block;
+	width: 250px;
+	float: left;
+	margin: 1em 2.5em 4em;
+}
+
+
+.clear-fix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
