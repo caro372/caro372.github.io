@@ -46,6 +46,7 @@ p {
 nav a, footer li {
 	display: inline-block;
 	margin: 0 1.5em;
+	padding: .2em 0;
 	font-size: 1.25em;
 	letter-spacing: .05em;
 	color: #f2d8c2; 
@@ -188,6 +189,7 @@ It needs to appear above hover, because then you need to have the button inherit
 /*Shop Page Specific*/
 .text-blurb {
 	max-width: 500px;
+	width: 95%;
 	margin: 3em auto;
 }
 
@@ -265,12 +267,12 @@ div.product-details {
 	width: 61%;
 	margin: 1em 2%;
 	display: block;
-	text-align: left;
 }
 
 #bio p {
 	display: block;
 	margin: 1em 0;
+	text-align: left;
 }
 
 
@@ -300,13 +302,15 @@ div.product-details {
 
 @media only screen and (max-width:925px) {
 	.product-listing {
-		float: left;
 		width: 31.333%;
 		margin: 2em 1%;
 	}
 }
 
 @media only screen and (max-width:800px) {
+	.highlight {
+		padding: 8em 2em;
+	}
 	#headshot {
 		float: none;
 		width: 85%;
@@ -317,16 +321,103 @@ div.product-details {
 		width: 85%;
 		margin: 2em auto;
 	}
+}
 
-
-@media only screen and (max-width:690px) {
+@media only screen and (max-width:700px) {
+	.highlight {
+		padding: 6em 2em;
+	}
 	.product-listing {
-		float: left;
 		width: 48%;
-		margin: 2em 1%;
+	}
+	.callout {
+		padding: 5em 2em;
+	}
+	.callout p {
+		text-align: left;
+	}
+}
+
+@media only screen and (max-width:610px) {
+	.featured-products a {
+		float: none;
+		width: 76%;
+		margin: 1em 12%;
+	}
+	.other-products img {
+		float: none;
+		width: 76%;
+		margin: 1em 12%;
 	}
 	nav a {
-		display: block;
-		text-align: center;
+		padding: .2em 1.4em;
+		margin: 0;
+	}
+	.text-blurb {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width:520px ) {
+	nav a {
+		font-size: 1.2em;
+		padding: .2em 1.3em;
+	}
+}
+
+@media only screen and (max-width:480px ) {
+	nav a {
+		font-size: 1.1em;
+		padding: .2em 1.1em;
+	}
+	#logo {
+		font-size: 1.7em;
+	}
+	.highlight, .callout {
+		padding: 4em 2em;
+	}
+	.product-listing {
+		width: 98%;
+		margin: 1em 1%;
+	}
+	.product-listing img {
+		width: 70%
+	}
+	footer li {
+		font-size: 1.15em;
+		padding: 0;
+		margin: 0;
+	}
+	footer a {
+		padding: .2em 1.5em;
+	}
+}
+
+@media only screen and (max-width:420px ) {
+	nav a {
+		font-size: 1em;
+		padding: .2em 1em;
+	}
+	#logo {
+		font-size: 1.5em;
+	}
+	footer a {
+		padding: .2em 1.25em;
+	}
+}
+
+@media only screen and (max-width:365px ) {
+	nav a {
+		font-size: .9em;
+		padding: .2em .7em;
+	}
+	#logo {
+		font-size: 1.3em;
+	}
+	footer li {
+		font-size: 1.05em;
+	}
+	footer a {
+		padding: .2em 1.1em;
 	}
 }
